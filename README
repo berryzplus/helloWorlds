@@ -1,0 +1,32 @@
+This is helloWorlds, a collection of most simple applications.
+
+helloWorlds indicates the code of the simplest applications, 
+and also indicates the simplest method of application distribution.
+
+This package is a sample for application developper.
+To build helloWorlds, some developper's tools may be required.
+
+Requirement:
+	gcc(at least, C/C++ compiler and linker)
+	autoconf(ver 2.58 or lator)
+	automake(ver 1.11 or lator)
+	perl(ver 5.6 or lator)
+
+
+-----
+
+Copyright (C) 2013 Minato Hamano
+
+This program is free software:
+you can redistribute it and/or modify it under the terms of
+the GNU Lesser General Public License as published by
+the Free Software Foundation, either version 3 of the License,
+or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+See the GNU Lesser General Public License for more details.
+
+You should have received a copy of the GNU Lesser General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.

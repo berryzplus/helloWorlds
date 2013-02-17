@@ -1,0 +1,29 @@
+2013-02-16  Minato Hamano  <berryzplus@gmail.com>: New file.
+
+	* AUTHORS: New file.
+	* COPYING: New file.
+	* INSTALL: New file.
+	* NEWS: New file.
+	* README: New file.
+	* ChangeLog: New file.
+	* Makefile.am: New file.
+	* configure.ac: New file.
+	* cleanup: New file.
+
+	* echo/Makefile.am: New file.
+	* echo/configure.ac: New file.
+	* echo/src/echo.c: New file.
+
+	* echo++/Makefile.am: New file.
+	* echo++/configure.ac: New file.
+	* echo++/src/echo++.cxx: New file.
+
+	* hello/Makefile.am: New file.
+	* hello/configure.ac: New file.
+	* hello/src/hello.c: New file.
+	* hello/src/simplest.c: New file.
+
+	* hello++/Makefile.am: New file.
+	* hello++/configure.ac: New file.
+	* hello++/src/hello++.cxx: New file.
+	* hello++/src/simplest.cxx: New file.
