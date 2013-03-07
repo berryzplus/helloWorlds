@@ -1,0 +1,39 @@
+autoscan-2.68: warning: missing AC_CHECK_FUNCS([getcwd]) wanted by: 
+	.libs/lt-hell.c:464
+	.libs/lt-hell.c:490
+autoscan-2.68: warning: missing AC_CHECK_FUNCS([putenv]) wanted by: 
+	.libs/lt-hell.c:44
+	.libs/lt-hell.c:646
+autoscan-2.68: warning: missing AC_CHECK_FUNCS([realpath]) wanted by: 
+	.libs/lt-hell.c:43
+	.libs/lt-hell.c:554
+autoscan-2.68: warning: missing AC_CHECK_FUNCS([setenv]) wanted by: 
+	.libs/lt-hell.c:45
+	.libs/lt-hell.c:641
+autoscan-2.68: warning: missing AC_CHECK_FUNCS([strchr]) wanted by: 
+	.libs/lt-hell.c:283
+	.libs/lt-hell.c:287
+autoscan-2.68: warning: missing AC_CHECK_FUNCS([strerror]) wanted by: 
+	.libs/lt-hell.c:321
+	.libs/lt-hell.c:466
+	.libs/lt-hell.c:492
+	.libs/lt-hell.c:544
+autoscan-2.68: warning: missing AC_CHECK_FUNCS([strpbrk]) wanted by: 
+	.libs/lt-hell.c:764
+	.libs/lt-hell.c:766
+autoscan-2.68: warning: missing AC_CHECK_HEADERS([fcntl.h]) wanted by: 
+	.libs/lt-hell.c:33
+autoscan-2.68: warning: missing AC_CHECK_HEADERS([malloc.h]) wanted by: 
+	.libs/lt-hell.c:27
+autoscan-2.68: warning: missing AC_FUNC_LSTAT_FOLLOWS_SLASHED_SYMLINK wanted by: 
+	.libs/lt-hell.c:521
+autoscan-2.68: warning: missing AC_FUNC_MALLOC wanted by: 
+	.libs/lt-hell.c:330
+autoscan-2.68: warning: missing AC_TYPE_SIZE_T wanted by: 
+	.libs/lt-hell.c:140
+	.libs/lt-hell.c:328
+	.libs/lt-hell.c:455
+	.libs/lt-hell.c:567
+	.libs/lt-hell.c:746
+	.libs/lt-hell.c:748
+	.libs/lt-hell.c:767
