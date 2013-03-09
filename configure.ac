@@ -43,5 +43,18 @@ if test $ac_cv_with_echo__ = yes; then
   AC_CONFIG_SUBDIRS([echo++])
 fi
 
+AC_ARG_WITH([ltdl],
+  AS_HELP_STRING([--with-ltdl], [use ltdl (default is YES)]),
+  [ac_cv_with_ltdl=$withval], [ac_cv_with_ltdl=yes])
+if test $ac_cv_with_ltdl = yes; then
+  AC_CONFIG_SUBDIRS([ltdl])
+fi
+
+AC_ARG_WITH([instantGNU_ltdl],
+  AS_HELP_STRING([--with-instantGNU_ltdl], [use instantGNU_ltdl (default is YES)]),
+  [ac_cv_with_instantGNU_ltdl=$withval], [ac_cv_with_instantGNU_ltdl=yes])
+if test $ac_cv_with_instantGNU_ltdl = yes; then
+  AC_CONFIG_SUBDIRS([instantGNU_ltdl])
+fi
 AC_CONFIG_FILES([Makefile])
 AC_OUTPUT

@@ -1,7 +1,7 @@
 dnl Process this file with autoconf to produce a configure script.
 
 AC_PREREQ([2.50])
-AC_INIT([demo], [1.0], [bug-libtool@gnu.org])
+AC_INIT([libtool-demo], [1.0], [bug-libtool@gnu.org])
 
 AC_CONFIG_HEADERS([config.h])
 AC_CONFIG_SRCDIR([hello.c])

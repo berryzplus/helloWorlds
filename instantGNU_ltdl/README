@@ -1,0 +1,34 @@
+The instantGNU_ltdl is a sample program indicates how to use autoconf,
+can be built on various Platforms(GNU Linux, msys, Mac OS X, etc).
+
+1, To build the program, simply type:
+  $ autoreconf -im;automake;./configure;make
+
+2, you will get executable like this:
+  main/.libs/autoconfsample.exe
+  libraries/.libs/libShared.dll
+
+
+This program ported from:
+http://www.jaist.ac.jp/~kiyoshiy/memo/autoconf.html
+
+you can get an original version from:
+http://www.jaist.ac.jp/~kiyoshiy/memo/instantGNU_ltdl-1.1.tar.gz
+
+-----
+
+Copyright (C) 2013 Minato Hamano
+
+This program is free software:
+you can redistribute it and/or modify it under the terms of
+the GNU Lesser General Public License as published by
+the Free Software Foundation, either version 3 of the License,
+or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+See the GNU Lesser General Public License for more details.
+
+You should have received a copy of the GNU Lesser General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.

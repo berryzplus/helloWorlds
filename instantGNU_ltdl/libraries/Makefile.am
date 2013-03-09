@@ -6,6 +6,6 @@ lib_LTLIBRARIES = libShared.la
 libShared_la_SOURCES = libShared.c
 
 # LDFLAGS for libShared.la
-libShared_la_LDFLAGS = -module -avoid-version -shared
-
+libShared_la_LDFLAGS = -module -shared
+libShared_la_LDFLAGS += -avoid-version
 libShared_la_LDFLAGS += -no-undefined

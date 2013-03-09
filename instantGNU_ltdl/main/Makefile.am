@@ -5,4 +5,4 @@ bin_PROGRAMS = autoconfsample
 autoconfsample_SOURCES = main.c
 
 # after object files
-autoconfsample_LDADD = @LIBLTDL@
+autoconfsample_LDADD = $(LIBLTDL)

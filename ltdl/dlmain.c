@@ -47,8 +47,9 @@ main (argc, argv)
   /* Look up the symbols we require for this demonstration. */
   s = lt_preloaded_symbols;
   while (s->name) {
+    const char *name;
     if (s->address) {
-      const char *name = s->name;
+      name = s->name;
       printf ("found symbol: %s\n", name);
     }
 
